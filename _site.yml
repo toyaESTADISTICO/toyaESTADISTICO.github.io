@@ -7,6 +7,10 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+      text: "More"
+      icon: fa-gear
+    - href: about.html
+
 output:
   html_document:
     theme: journal
