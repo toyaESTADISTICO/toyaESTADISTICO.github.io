@@ -17,3 +17,22 @@ Mi nombre es andres felipe montoya morales, naci en itagui, y he vivido toda mi 
 
 en el año 2012 ingrese a la universidad nacional a estudiar estadistica , aunque en un principio me habia inscrito para el pregrado de economia , a pasar el tiempo me fui enamorando mas de la estadistica , al principio no fue facil debido a mis falencias matematicas ,pero con esfuerzo pude aprender las bases para entender los conceptos introductorios de esta ciencia. 
 
+Me caracterizo por tenes la capacidad de integrar equipos interdisciplinarios en áreas económicas y financieras, capacidad para desarrollar labores de asesoría y consultoria estadística y abordar la discusión y creación de nuevos métodos estadísticos que me permiten evaluar la información proporcionada de los datos y obtener argumentos científicos en los que apoyar la toma de decisiones y nuevas
+
+aplicaciones, ademas de tener un buen sentido de pertenencia por la compañía donde trabajo.
+La educación obtenida en la Universidad Nacional me aporta sólidos conocimientos en matemáticas,estadística y computación para tratar con grandes volúmenes de datos y conocer los software necesarios para manipular, capturar procesar analizar y representar estos datos a través de la visualización de la información.
+
+
+
+##Habilidades
+
+#Programación
+R Alto conocimiento en el manejo de la herramienta, para análisis de datos
+SQL Conocimiento avanzado en la extracción y procesamiento de grandes volúmenes de datos
+
+Python, SPSS, Eviews,Excel,SAS Conocimiento medios en usos de la herramientas analíticas
+LaTeX Conocimiento avanzado en la creación y modificación de plantillas
+
+
+
+
