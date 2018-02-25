@@ -3,6 +3,6 @@ title: "My Website"
 ---
 
 Hello, Website!
-knitr::include_graphics("media\statisctics.jpg")
+knitr::include_graphics("media/statisctics.jpg")
 ## Bienvenidos a mi segunda pagina web.
 vamos a ver si podemos trabajar 

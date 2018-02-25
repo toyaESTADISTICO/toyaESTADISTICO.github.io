@@ -1,7 +1,7 @@
 ---
 title: "About This Website"
 ---
-knitr::include_graphics("C:\Users\andres felipe\Desktop\semillero\toyaESTADISTICO.github.io\media")
+knitr::include_graphics("C:/Users/andres felipe/Desktop/semillero/toyaESTADISTICO.github.io/media")
 
 informacion sobre mi pagina web.
 
