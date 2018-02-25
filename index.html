@@ -212,7 +212,8 @@ $(document).ready(function () {
 </div>
 
 
-<p>Hello, Website! knitr::include_graphics(“media/statisctics.jpg”) ## Bienvenidos a mi segunda pagina web. vamos a ver si podemos trabajar</p>
+<p>library(png) library(grid)</p>
+<p>img &lt;- readPNG(“media/statisctics.png”) grid.raster(img) Hello, Website! ## Bienvenidos a mi segunda pagina web. vamos a ver si podemos trabajar</p>
 
 
 
