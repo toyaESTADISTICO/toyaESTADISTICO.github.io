@@ -1,14 +1,16 @@
 name: "my-website"
-output_dir: "."
 navbar:
   title: "My Website"
+  type: inverse
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
     - text: "About"
+      icon: fa-info
       href: about.html
-      text: "More"
-    - href: about.html
+    - text: "More"
+      icon: fa-gear
       menu:
         - text: "Heading 1"
         - text: "Page A"
@@ -24,5 +26,5 @@ navbar:
 
 output:
   html_document:
-    theme: journal
+    theme: spacelab
     highlight: textmate
