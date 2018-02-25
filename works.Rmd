@@ -1,5 +1,5 @@
 ---
 title: "works in the unalmed"
 ---
-
+knitr::include_graphics("media\distributions.jpg")
 survivors with ceaes, calidad de vida , inder medellin.

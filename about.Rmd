@@ -1,6 +1,7 @@
 ---
 title: "About This Website"
 ---
+knitr::include_graphics("media\andrescat.jpg")
 
 informacion sobre mi pagina web.
 
