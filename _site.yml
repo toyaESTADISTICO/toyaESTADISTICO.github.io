@@ -6,8 +6,10 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "About"
+      icon: fa-user 
       href: about.html
     - text: "works"
+      icon: fa-book 
       href: works.html
 output:
   html_document:
