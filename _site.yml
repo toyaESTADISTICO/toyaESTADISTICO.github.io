@@ -3,9 +3,9 @@ output_dir: "."
 navbar:
   title: "My Website"
   left:
-    - text: "Home"
+    - text: "Biografia"
       href: index.html
-    - text: "About"
+    - text: "densitys"
       icon: fa-user 
       href: about.html
     - text: "works"

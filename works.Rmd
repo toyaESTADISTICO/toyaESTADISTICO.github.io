@@ -1,8 +1,33 @@
 ---
 title: "works in the unalmed"
 ---
+```{r ,echo=FALSE}
 library(png)
 library(grid)
 img <-readPNG("C:/Users/andres felipe/Desktop/semillero/toyaESTADISTICO.github.io/media/distributions.png")
 grid.raster(img)
-survivors with ceaes, calidad de vida , inder medellin.
+```
+
+
+
+
+# Trabajos realizados en la universidad
+
+EMPRESA: ( CEAES) UNIVERSIDAD NACIONAL DE COLOMBIA
+CENTRO DE ESTADISTICA APLICADA A ESTUDIOS SOCIOECONOMICOS
+
+CARGO: SUPERVISOR Y ENCUESTADOR PROYECTO INDER CICLOVIAS
+
+CARGO: encuestador y auxiliar estadístico ,
+proyecto = encuesta de calidad de vida envigado 2015 , alcaldia de envigado
+
+CARGO: encuestador y auxiliar estadistico
+proyecto =  encuesta de calidad de vida area metropolitana 2015 ,alcadia de medellin
+
+jefes inmediatos: wilson garcia cel :3012427863
+jaderson ruiz cel:3192976780
+
+logistica y asistente en los siguientes eventos academicos
+coloquio de estadistica 2014 universidad nacional sede medellin
+escuela de verano de estadistica bayesiana 2015 universidad nacional sede medellin
+

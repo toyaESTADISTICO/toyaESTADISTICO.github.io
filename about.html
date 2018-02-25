@@ -11,7 +11,7 @@
 
 
 
-<title>About This Website</title>
+<title>Densitys</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -179,13 +179,13 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
+  <a href="index.html">Biografia</a>
 </li>
 <li>
   <a href="about.html">
     <span class="fa fa-user"></span>
      
-    About
+    densitys
   </a>
 </li>
 <li>
@@ -207,15 +207,48 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About This Website</h1>
+<h1 class="title toc-ignore">Densitys</h1>
 
 </div>
 
 
-<p>library(png) library(grid)</p>
-<p>img2 &lt;- readPNG(“media/andrescat.png”) grid.raster(img2)</p>
-<p>informacion sobre mi pagina web.</p>
-<p>trantando de meter algo en estas paginas un lio</p>
+<p><img src="about_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<div id="histogramas-y-graficos-de-densidad" class="section level3">
+<h3>Histogramas y gráficos de densidad</h3>
+</div>
+<div id="introduccion" class="section level2">
+<h2>Introducción</h2>
+<p>En estadística, un histograma es una representación gráfica de una variable en forma de barras, donde el area de cada barra es proporcional a la frecuencia de los valores representados, ya sea en forma diferencial o acumulada. Sirven para obtener una “primera vista” general, o panorama, de la distribución de los datos, respecto a una característica, cuantitativa y continua. De esta manera ofrece una visión en grupo permitiendo observar una preferencia, o tendencia, por parte de la muestra o población. Un ejemplo de esto se puede ver en la siguiente imagen, con su respectivo código en R para realizarlo mediante el paquete “ggplot2”.</p>
+<p>Como un complemento a los gráficos de histograma se pueden realizar gráficas de densidad, donde se calcula una curva de distribución, pudiendo esta ser ajustada a los datos según la exigencia sea necesaria.</p>
+<pre class="r"><code>ggplot(diamonds, aes(price)) + geom_density()  </code></pre>
+<p><img src="about_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p>He aquí dos ejemplos de cómo puede ser ajustada la curva de distribución de los datos.</p>
+<pre class="r"><code>ggplot(diamonds, aes(price)) +
+  geom_density(adjust = 1/5)</code></pre>
+<p><img src="about_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<pre class="r"><code>#Densidad de la frecuencia de precio ajustado a 5Densidad de la frecuencia de precio ajustado a 5
+ggplot(diamonds, aes(price)) +
+  geom_density(adjust = 5)</code></pre>
+<p><img src="about_files/figure-html/unnamed-chunk-3-2.png" width="672" /></p>
+<pre class="r"><code>geom_density2d</code></pre>
+<pre><code>## function (mapping = NULL, data = NULL, stat = &quot;density2d&quot;, position = &quot;identity&quot;, 
+##     ..., lineend = &quot;butt&quot;, linejoin = &quot;round&quot;, linemitre = 1, 
+##     na.rm = FALSE, show.legend = NA, inherit.aes = TRUE) 
+## {
+##     layer(data = data, mapping = mapping, stat = stat, geom = GeomDensity2d, 
+##         position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+##         params = list(lineend = lineend, linejoin = linejoin, 
+##             linemitre = linemitre, na.rm = na.rm, ...))
+## }
+## &lt;environment: namespace:ggplot2&gt;</code></pre>
+<p>Adicionalmente ggplot2 permite realizar estimaciones de densidad en 2 dimensiones lo cual puede ser de utilidad para lidear con el sobre ploteo.</p>
+<pre class="r"><code>m &lt;- ggplot(faithful, aes(x = eruptions, y = waiting)) +
+ geom_point() +
+ xlim(0.5, 6) +
+ ylim(40, 110)
+m + geom_density_2d()</code></pre>
+<p><img src="about_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+</div>
 
 
 
