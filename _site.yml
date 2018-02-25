@@ -7,8 +7,6 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-      text: "More"
-    - href: more.html
 output:
   html_document:
     theme: spacelab
