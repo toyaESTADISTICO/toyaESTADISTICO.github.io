@@ -1,7 +1,12 @@
+
+library(png)
+library(grid)
+
 ---
 title: "About This Website"
 ---
-knitr::include_graphics("C:/Users/andres felipe/Desktop/semillero/toyaESTADISTICO.github.io/media")
+img2 <- readPNG("media/andrescat.png")
+grid.raster(img2)
 
 informacion sobre mi pagina web.
 

@@ -1,5 +1,9 @@
 ---
 title: "works in the unalmed"
 ---
-knitr::include_graphics("media/distributions.jpg")
+library(png)
+library(grid)
+img3 <- readPNG("media/distributions.png")
+grid.raster(img3)
+
 survivors with ceaes, calidad de vida , inder medellin.

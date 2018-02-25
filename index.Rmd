@@ -1,8 +1,13 @@
+
+
+library(png)
+library(grid)
+
 ---
 title: "My Website"
 ---
-
+img <- readPNG("media/statisctics.png")
+grid.raster(img)
 Hello, Website!
-knitr::include_graphics("media/statisctics.jpg")
 ## Bienvenidos a mi segunda pagina web.
 vamos a ver si podemos trabajar 
