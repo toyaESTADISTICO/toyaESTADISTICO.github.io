@@ -1,13 +1,11 @@
-
-
-library(png)
-library(grid)
-
 ---
 title: "My Website"
 ---
-img <- readPNG("media/statisctics.png")
+library(png)
+library(grid)
+img <-readPNG("C:/Users/andres felipe/Desktop/semillero/toyaESTADISTICO.github.io/media/andrescat.png")
 grid.raster(img)
+  
 Hello, Website!
 ## Bienvenidos a mi segunda pagina web.
 vamos a ver si podemos trabajar 

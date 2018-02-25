@@ -3,7 +3,6 @@ title: "works in the unalmed"
 ---
 library(png)
 library(grid)
-img3 <- readPNG("media/distributions.png")
-grid.raster(img3)
-
+img <-readPNG("C:/Users/andres felipe/Desktop/semillero/toyaESTADISTICO.github.io/media/distributions.png")
+grid.raster(img)
 survivors with ceaes, calidad de vida , inder medellin.

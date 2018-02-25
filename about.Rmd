@@ -1,12 +1,10 @@
-
-library(png)
-library(grid)
-
 ---
 title: "About This Website"
 ---
-img2 <- readPNG("media/andrescat.png")
-grid.raster(img2)
+library(png)
+library(grid)
+img <-readPNG("C:/Users/andres felipe/Desktop/semillero/toyaESTADISTICO.github.io/media/statisctics.png")
+grid.raster(img)
 
 informacion sobre mi pagina web.
 
