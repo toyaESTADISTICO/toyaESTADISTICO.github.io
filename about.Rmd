@@ -45,6 +45,5 @@ m <- ggplot(faithful, aes(x = eruptions, y = waiting)) +
 m + geom_density_2d()
 ```
 
-tomado de
-referencias y bibliografia: https://rpubs.com/tcvalenzuela/220600
+[Taken from](https://rpubs.com/tcvalenzuela/220600) 
 
