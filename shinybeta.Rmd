@@ -3,51 +3,8 @@ title: "shiny"
 runtime: shiny
 ---
 
-```{r , message=FALSE}
-library(gamlss)
-library(shiny)
-```
-
-```{r ,echo=FALSE , message=FALSE}
-inputPanel(require(gamlss),
-ui<-headerPanel("Distribucion Beta"),
-  sidebarPanel(
- 
-    sliderInput(inputId = "mu",
-                label = HTML("Parametro &mu;<sup></sup>"),
-                min = 0,
-                max = 1,
-                value = 0.5,
-                step =0.1),
-    
-    
-    sliderInput(inputId = "sigma",
-                label = HTML("Parametro &sigma;<sup></sup>"),
-                min = 0,
-                max = 1,
-                value = 0.2,
-                step = 0.1)
- 
-  ),
-  mainPanel(
-    plotOutput('betaDensity')
-  )
-)
-
-
-server<-(function(input, output) {
-      output$betaDensity <- renderPlot({
-        curve(dBE(x, mu=input$mu, sigma =input$sigma),
-              from=0.000001, to=0.999999, ylab="Densidad",
-              las=1, lwd=3, col="deepskyblue3")
-  
-        title(paste0("Density Distribution Beta With mu =",input$mu," and sigma =",input$sigma,""))
-        grid()
-    })
-  }
-  
-)
-
+```{r , echo=FALSE}
+knitr::include_app("https://toyaestadistico.shinyapps.io/beta_dist/)",height = "800px")
 ```
 
 
