@@ -11,8 +11,6 @@ navbar:
     - text: "works"
       icon: fa-book 
       href: works.html
-    - text: "Shiny"
-      href: Shinybeta.html
 output:
   html_document:
     theme: lumen
