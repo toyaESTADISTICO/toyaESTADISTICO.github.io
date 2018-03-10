@@ -12,8 +12,7 @@ navbar:
       icon: fa-book 
       href: works.html
     - text: "Shiny"
-      icon: fa-shiny
-      href: Shiny.html
+      href: Shinybeta.html
 output:
   html_document:
     theme: lumen

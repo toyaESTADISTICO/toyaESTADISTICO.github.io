@@ -4,7 +4,7 @@ runtime: shiny
 ---
 
 ```{r , echo=FALSE}
-knitr::include_app("https://toyaestadistico.shinyapps.io/beta_dist/",height = "800px")
+knitr::include_app("https://toyaestadistico.shinyapps.io/beta_dist/",height = "600px")
 ```
 
 
